@@ -20,3 +20,42 @@
 .App-link {
   color: #09d3ac;
 }
+
+.wrapper {
+  width: 920px;
+  margin: auto;
+
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card {
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.list {
+  display: flex;
+
+  padding: 0;
+
+  list-style-type: none
+}
+
+.list__item {
+  box-sizing: border-box;
+
+  padding: 5px 10px;
+
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.list__item:not(:first-child) {
+  margin-left: 5px;
+}
